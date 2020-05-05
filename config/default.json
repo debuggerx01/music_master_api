@@ -1,0 +1,36 @@
+{
+  "port": 4780,
+  "api": {
+    "version": "v1",
+    "port": 4780
+  },
+  "database": {
+    "client": "pg",
+    "connection": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "password": "test",
+      "database": "music_master"
+    },
+    "migrations": {
+      "directory": "./database/migrations",
+      "tableName": "migrations"
+    },
+    "seeds": {
+      "directory": "./database/seeds"
+    }
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "password": null,
+    "port": 6379,
+    "db": 0
+  },
+  "auth": {
+    "jwt": {
+      "secret": "Le5z2dBS7ROe1pEqYljZCLKjmdQNwVUb"
+    }
+  },
+  "timezone": "Asia/Shanghai"
+}
