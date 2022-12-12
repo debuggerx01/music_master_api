@@ -64,7 +64,7 @@
     "config": "^1.30.0",
     "cors": "^2.8.4",
     "cron": "^1.7.0",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "express-validator": "^5.1.2",
     "express-xml-bodyparser": "^0.3.0",
     "hash-it": "^4.0.4",
